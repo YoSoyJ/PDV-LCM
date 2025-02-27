@@ -1,0 +1,138 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 0, 15);
+}
+
+/* importando una fuente uwu */
+@font-face {
+    font-family: 'Asimilates';
+    src: url('Assets/asimilates-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.portada{
+    height: 100vh;
+    position: relative;
+}
+
+
+.portada > div{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: url("Assets/portadaNobedSQ.avif") no-repeat center/cover;
+    background-position-y: 60%;
+    z-index: 0;
+}
+
+.portada .titulo{
+    /* fuente y subrayado */
+    font-family: 'Asimilates';
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1.5px;
+
+    /* mas ajustes del texto */
+    color: white;
+    text-align: center;
+    font-size: 6vw;
+
+    /* posicion del titulo y ajustes */
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.portada .nombrecito{
+    /* fuente y subrayado */
+    font-family: 'Asimilates';
+
+    /* mas ajustes del texto */
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+
+    /* posicion del titulo y ajustes */
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.portada > header{
+    position: absolute;
+    background-color: rgba(5, 0, 15, 0.658);
+    backdrop-filter: blur(15px);
+    height: 100px;
+    width: 100vw;
+
+    z-index: 1;
+}
+
+.miniLogo{
+    position: absolute;
+    bottom: 8vh;
+    left: 10vh;
+    max-height: 10vw;
+    z-index: 1;    
+}
+
+.portada .infoPro{
+    border-radius: 5px;
+    padding-right: 20px;
+    border-right: 5px solid rgb(195, 188, 209);
+
+    position: absolute;
+    color: white;
+    z-index: 1;
+
+    font-size: 3vw;
+    right: 6vw;
+    bottom: 6vh;
+}
+
+@media screen and (orientation: portrait) {
+    .portada > header{
+        height: 10vh;
+    }
+
+    .portada > div{
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        background: url("Assets/portadaNobedSQ.avif") no-repeat center/cover;
+        
+        z-index: 1;
+    }
+
+    .portada .titulo{
+        font-size: 10vw;
+        top: 35%;
+    }
+
+    .miniLogo{
+        bottom: 5vh;
+        left: 5vh;
+        max-height: 20vw;
+    }
+    .portada .infoPro{    
+        font-size: 5vw;
+        right: 10vw;
+        bottom: 6vh;
+    }
+
+    .portada .nombrecito{
+        font-size: 4vw;
+        position: absolute;
+        top: 41vh;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
