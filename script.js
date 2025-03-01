@@ -62,6 +62,8 @@ function toggleCategories(category){
 
 
 
+
+
 // esto se podra eliminar proximamente
 function crearZonaConstruccion() {
     return `
