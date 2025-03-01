@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <button class="menuBtn" onclick="mostrarMenu()">☰</button>
+        <ul class="categorias">
+            <li><button onclick="toggleCategories('Ini')">INICIO</button></li>
+            <li><button onclick="toggleCategories('Sob')">SOBRE MI</button></li>
+            <li><button onclick="toggleCategories('Met')">METAS</button></li>
+            <li><button onclick="toggleCategories('Pil')">PILARES</button></li>
+            <li><button onclick="toggleCategories('Cie')">CIERRE</button></li>
+        </ul>
+    </header>
+
     <div class="portada">
-        <header>
-            <button class="menuBtn" onclick="mostrarMenu()">☰</button>
-            <ul class="categorias">
-                <li><button onclick="toggleCategories('Ini')">INICIO</button></li>
-                <li><button onclick="toggleCategories('Sob')">SOBRE MI</button></li>
-                <li><button onclick="toggleCategories('Met')">METAS</button></li>
-                <li><button onclick="toggleCategories('Pil')">PILARES</button></li>
-                <li><button onclick="toggleCategories('Cie')">CIERRE</button></li>
-            </ul>
-        </header>
+        
         <div>
             <div class="contenedorTit">
                 <p class="titulo">PROYECTO DE VIDA</p>
