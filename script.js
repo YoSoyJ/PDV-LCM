@@ -11,3 +11,18 @@ document.addEventListener('click', function(e){ //se almacena el evento click en
         menu.classList.remove('show');
     }
 });
+
+function toggleCategories(category){
+    switch (category){
+        case 'Ini':
+            menu.classList.remove('show')
+        case 'Sob':
+            menu.classList.remove('show')
+        case 'Met':
+            menu.classList.remove('show')
+        case 'Pil':
+            menu.classList.remove('show')
+        case 'Cie':
+            menu.classList.remove('show')
+    }
+}

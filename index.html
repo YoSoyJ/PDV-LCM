@@ -12,11 +12,11 @@
         <header>
             <button class="menuBtn" onclick="mostrarMenu()">☰</button>
             <ul class="categorias">
-                <li><button>INICIO</button></li>
-                <li><button>SOBRE MI</button></li>
-                <li><button>METAS</button></li>
-                <li><button>PILARES</button></li>
-                <li><button>CIERRE</button></li>
+                <li><button onclick="toggleCategories('Ini')">INICIO</button></li>
+                <li><button onclick="toggleCategories('Sob')">SOBRE MI</button></li>
+                <li><button onclick="toggleCategories('Met')">METAS</button></li>
+                <li><button onclick="toggleCategories('Pil')">PILARES</button></li>
+                <li><button onclick="toggleCategories('Cie')">CIERRE</button></li>
             </ul>
         </header>
         <div>
@@ -30,6 +30,13 @@
             Asesor: Ronald Soto
         </p>
     </div>
+
+    <div class="sobreMi">
+        <div class="bio"></div>
+        <div class="perso"></div>
+        <div class="acros"></div>
+    </div>    
+
     <script src="script.js"></script>
 </body>
 </html>
