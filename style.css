@@ -124,6 +124,7 @@ html, body{
     background-color: rgba(0, 0, 0, 0);
     border: none;
     outline: none;
+    font-size: 1.5em;
 }
 
 .categorias{
@@ -147,7 +148,6 @@ html, body{
         display: block;
         position: absolute;
         top: 50%;
-        left: 10px;
         margin: 0;
         transform: translateY(-50%);
         background-color: rgba(0, 0, 0, 0);
@@ -194,6 +194,7 @@ html, body{
 
     .categorias > li > button{
         width: 200px;
+        font-size: 1.5em;
     }
 
     .categorias > li{
@@ -203,7 +204,7 @@ html, body{
     
     
     .categorias {
-        opacity: 0;
+        opacity: 1;
         pointer-events: none;
 
         flex-direction: column;
