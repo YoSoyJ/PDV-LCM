@@ -141,8 +141,10 @@ header{
     height: 100%;
 }
 
+/* sobre mi */
+
 .sobreMi{
-    display: none;
+    display: none; 
 }
 
 .sobreMi.show{
@@ -166,8 +168,112 @@ header{
     background-color: orange;
 }
 
+/* sobre mi */
+/* metas */
+.metas{
+    display: none; 
+}
 
+.metas.show{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 
+.metas .met{
+    height: 100vh;
+    background-color: pink;
+}
+
+.metas .vis{
+    height: 100vh;
+    background-color: yellow;
+}
+
+.metas .mis{
+    height: 100vh;
+    background-color: gray;
+}
+/* metas */
+/* pilares */
+.pilares{
+    display: none; 
+}
+
+.pilares.show{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.pilares .alia{
+    height: 100vh;
+    background-color: aqua;
+}
+
+.pilares .valo{
+    height: 100vh;
+    background-color: skyblue;
+}
+
+.pilares .estra{
+    height: 100vh;
+    background-color: darkcyan;
+}
+    
+.pilares .foda{
+    height: 100vh;
+    background-color: darkgray;
+    
+}
+/* pilares */
+/* cierre */
+.cierre{
+    display: none; 
+}
+
+.cierre.show{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cierre .conclu{
+    height: 100vh;
+    background-color: darkred;
+}
+
+.cierre .agrad{
+    height: 100vh;
+    background-color: darkviolet;
+}
+
+.cierre .metAlc{
+    height: 100vh;
+    background-color: darkgoldenrod;
+}
+/* cierre */
+
+/* zona en construccion */
+.zonaCons{
+    position: block;
+    height: 100vh;
+    background-color: rgb(19, 19, 19);
+    align-content: center;
+}
+
+.zonaCons > div{
+    position: absolute;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%) translateY(-50%);
+}
+.lucide-pencil-ruler{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* zona en construccion */
 
 /* uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuwuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
 /* uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuwuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
