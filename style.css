@@ -204,7 +204,7 @@ html, body{
     
     
     .categorias {
-        opacity: 1;
+        opacity: 0;
         pointer-events: none;
 
         flex-direction: column;
